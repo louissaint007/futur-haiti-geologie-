@@ -1,0 +1,28 @@
+node_modules/
+dist/
+
+# Local workspace and test captures
+.appforge/
+.playwright-cli/
+playwright-report/
+test-results/
+
+# Synced reference material is read-only and must not be published
+sources/
+
+# Capacitor/Android generated files
+android/.gradle/
+android/build/
+android/**/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/assets/native-bridge.js
+android/local.properties
+
+# Signing credentials and local environment configuration
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
